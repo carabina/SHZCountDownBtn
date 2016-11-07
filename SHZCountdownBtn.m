@@ -10,12 +10,13 @@
 
 @implementation SHZCountdownBtn
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
+- (instancetype)initWithFrame:(NSRect)frame
+    {
+    self = [super initWithFrame:frame];
+    if (self) {
+        [self setBackgroundColor:[UIColor redColor]];
+    }
+    return self;
+    }
 
 @end
