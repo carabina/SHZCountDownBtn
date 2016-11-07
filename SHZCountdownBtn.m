@@ -9,14 +9,13 @@
 #import "SHZCountdownBtn.h"
 
 @implementation SHZCountdownBtn
-
-- (instancetype)initWithFrame:(NSRect)frame
-    {
+- (instancetype)initWithFrame:(CGRect)frame
+{
     self = [super initWithFrame:frame];
     if (self) {
         [self setBackgroundColor:[UIColor redColor]];
     }
     return self;
-    }
+}
 
 @end
