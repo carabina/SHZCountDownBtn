@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		582A85361DD059F2007D28F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 582A85351DD059F2007D28F8 /* main.m */; };
+		582A85391DD059F2007D28F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 582A85381DD059F2007D28F8 /* AppDelegate.m */; };
+		582A853C1DD059F2007D28F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 582A853B1DD059F2007D28F8 /* ViewController.m */; };
+		582A853F1DD059F2007D28F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582A853D1DD059F2007D28F8 /* Main.storyboard */; };
+		582A85411DD059F2007D28F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582A85401DD059F2007D28F8 /* Assets.xcassets */; };
+		582A85441DD059F2007D28F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582A85421DD059F2007D28F8 /* LaunchScreen.storyboard */; };
+		582A854D1DD05A25007D28F8 /* SHZCountdownBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 582A854C1DD05A25007D28F8 /* SHZCountdownBtn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		582A85311DD059F2007D28F8 /* SHZCountdownBtn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SHZCountdownBtn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		582A85351DD059F2007D28F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		582A85371DD059F2007D28F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		582A85381DD059F2007D28F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		582A853A1DD059F2007D28F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		582A853B1DD059F2007D28F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		582A853E1DD059F2007D28F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		582A85401DD059F2007D28F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		582A85431DD059F2007D28F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		582A85451DD059F2007D28F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		582A854B1DD05A25007D28F8 /* SHZCountdownBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHZCountdownBtn.h; sourceTree = "<group>"; };
+		582A854C1DD05A25007D28F8 /* SHZCountdownBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHZCountdownBtn.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		582A852E1DD059F2007D28F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		582A85281DD059F2007D28F8 = {
+			isa = PBXGroup;
+			children = (
+				582A854B1DD05A25007D28F8 /* SHZCountdownBtn.h */,
+				582A854C1DD05A25007D28F8 /* SHZCountdownBtn.m */,
+				582A85331DD059F2007D28F8 /* SHZCountdownBtn */,
+				582A85321DD059F2007D28F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		582A85321DD059F2007D28F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				582A85311DD059F2007D28F8 /* SHZCountdownBtn.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		582A85331DD059F2007D28F8 /* SHZCountdownBtn */ = {
+			isa = PBXGroup;
+			children = (
+				582A85371DD059F2007D28F8 /* AppDelegate.h */,
+				582A85381DD059F2007D28F8 /* AppDelegate.m */,
+				582A853A1DD059F2007D28F8 /* ViewController.h */,
+				582A853B1DD059F2007D28F8 /* ViewController.m */,
+				582A853D1DD059F2007D28F8 /* Main.storyboard */,
+				582A85401DD059F2007D28F8 /* Assets.xcassets */,
+				582A85421DD059F2007D28F8 /* LaunchScreen.storyboard */,
+				582A85451DD059F2007D28F8 /* Info.plist */,
+				582A85341DD059F2007D28F8 /* Supporting Files */,
+			);
+			path = SHZCountdownBtn;
+			sourceTree = "<group>";
+		};
+		582A85341DD059F2007D28F8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				582A85351DD059F2007D28F8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		582A85301DD059F2007D28F8 /* SHZCountdownBtn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 582A85481DD059F2007D28F8 /* Build configuration list for PBXNativeTarget "SHZCountdownBtn" */;
+			buildPhases = (
+				582A852D1DD059F2007D28F8 /* Sources */,
+				582A852E1DD059F2007D28F8 /* Frameworks */,
+				582A852F1DD059F2007D28F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SHZCountdownBtn;
+			productName = SHZCountdownBtn;
+			productReference = 582A85311DD059F2007D28F8 /* SHZCountdownBtn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		582A85291DD059F2007D28F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = BFMXYJ;
+				TargetAttributes = {
+					582A85301DD059F2007D28F8 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 582A852C1DD059F2007D28F8 /* Build configuration list for PBXProject "SHZCountdownBtn" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 582A85281DD059F2007D28F8;
+			productRefGroup = 582A85321DD059F2007D28F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				582A85301DD059F2007D28F8 /* SHZCountdownBtn */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		582A852F1DD059F2007D28F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582A85441DD059F2007D28F8 /* LaunchScreen.storyboard in Resources */,
+				582A85411DD059F2007D28F8 /* Assets.xcassets in Resources */,
+				582A853F1DD059F2007D28F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		582A852D1DD059F2007D28F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				582A853C1DD059F2007D28F8 /* ViewController.m in Sources */,
+				582A85391DD059F2007D28F8 /* AppDelegate.m in Sources */,
+				582A854D1DD05A25007D28F8 /* SHZCountdownBtn.m in Sources */,
+				582A85361DD059F2007D28F8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		582A853D1DD059F2007D28F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582A853E1DD059F2007D28F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		582A85421DD059F2007D28F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				582A85431DD059F2007D28F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		582A85461DD059F2007D28F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		582A85471DD059F2007D28F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		582A85491DD059F2007D28F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SHZCountdownBtn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bfmxjy.SHZCountdownBtn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		582A854A1DD059F2007D28F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SHZCountdownBtn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bfmxjy.SHZCountdownBtn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		582A852C1DD059F2007D28F8 /* Build configuration list for PBXProject "SHZCountdownBtn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582A85461DD059F2007D28F8 /* Debug */,
+				582A85471DD059F2007D28F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		582A85481DD059F2007D28F8 /* Build configuration list for PBXNativeTarget "SHZCountdownBtn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				582A85491DD059F2007D28F8 /* Debug */,
+				582A854A1DD059F2007D28F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 582A85291DD059F2007D28F8 /* Project object */;
+}
